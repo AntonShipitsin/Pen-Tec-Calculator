@@ -20,7 +20,7 @@ body {
   max-width: 240px;
   height: 80px;
   margin: 10px auto;
-  background-image: url(/PENTEC.png);
+  background-image: url(./PENTEC.png);
   background-position: center;
   background-repeat: no-repeat;
 }
