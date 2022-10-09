@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
-  <title>PEN-TEC Calculator</title>
-</head>
-<body>
-hello
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>PEN-TEC Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="/PENTEC.png" alt="logo" />
+      </div>
+      <div class="form">
+        <h2 class="form-title">SUPER USER:</h2>
+        <label for="user-serial">S/N</label><br>
+        <input class="form-input" type="number" id="user-serial" /><br>
+        <label for="user-seed">SEED</label><br>
+        <input class="form-input" type="number" id="user-seed" />
+        <button class="user-button">Calculate</button>
+        <div class="result">
+          <div class="login">
+            <span class="login">LOGIN:</span>
+            <span>PENTEC</span>
+          </div>
+          <div class="password-user">
+            <span>PASSWORD:</span>
+            <span></span>
+          </div>
+        </div>
+      </div>
 
 
+      <div class="form">
+        <h2 class="form-title">STATIC CALIBRATION</h2>
+        <label for="static-serial">S/N</label><br>
+        <input class="form-input" type="number" id="static-serial" /><br>
+        <label for="static-seed">SEED</label><br>
+        <input class="form-input" type="number" id="static-seed" />
+        <button class="static-button">Calculate</button>
+        <div class="result">
+          <div class="login">
+            <span class="login">LOGIN:</span>
+            <span>PENTEC</span>
+          </div>
+          <div class="password-static">
+            <span>PASSWORD:</span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
