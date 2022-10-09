@@ -45,7 +45,7 @@ input {
   border-radius: 5px;
   margin-bottom: 10px;
   border: 2px solid gray;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 input:hover {
   border: 2px solid rgb(179, 179, 179);
@@ -70,25 +70,17 @@ button {
 button:active {
   background-color: #e77000;
 }
-.form-title {
-}
-.form-input {
-}
-.user-button {
-}
+
 .result {
   margin: auto;
   max-width: 280px;
   display: grid;
-  gap: 5px;
+  gap: 10px;
   grid-template-columns: 1fr 1fr;
-  
+  justify-items: end;
+  align-items: end;
 }
-.login {
-}
-.password-user {
-}
-.static-button {
-}
-.password-static {
+
+.span-left {
+  justify-self: start;
 }
