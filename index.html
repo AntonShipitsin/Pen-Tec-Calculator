@@ -5,49 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet" />
     <title>PEN-TEC Calculator</title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="logo">
-        <img src="/PENTEC.png" alt="logo" />
-      </div>
+      <!-- LOGO --------------------------------------------------------------------------------- -->
+
+      <div class="logo"></div>
+
+      <!-- FORM FOR USER CREATION ------------------------------------------------------------------>
       <div class="form">
-        <h2 class="form-title">SUPER USER:</h2>
-        <label for="user-serial">S/N</label><br>
-        <input class="form-input" type="number" id="user-serial" /><br>
-        <label for="user-seed">SEED</label><br>
-        <input class="form-input" type="number" id="user-seed" />
-        <button class="user-button">Calculate</button>
+        <h2 class="form-title">SUPER USER</h2>
+        <label for="user-serial">S/N:</label><br />
+        <input class="form-input" type="number" id="user-serial" /><br />
+        <label for="user-seed">SEED:</label><br />
+        <input class="form-input" type="number" id="user-seed" /> <br />
+        <button class="user-button">CALCULATE</button>
         <div class="result">
-          <div class="login">
-            <span class="login">LOGIN:</span>
-            <span>PENTEC</span>
-          </div>
-          <div class="password-user">
-            <span>PASSWORD:</span>
-            <span></span>
-          </div>
+          <span class="login">LOGIN:</span>
+          <span>PENTEC</span>
+          <span>PASSWORD:</span>
+          <span style="text-decoration: underline; ">4546</span>
         </div>
       </div>
 
-
+      <!-- FORM FOR STATIC CALIBRATION--------------------------------------------------------------- -->
       <div class="form">
         <h2 class="form-title">STATIC CALIBRATION</h2>
-        <label for="static-serial">S/N</label><br>
-        <input class="form-input" type="number" id="static-serial" /><br>
-        <label for="static-seed">SEED</label><br>
-        <input class="form-input" type="number" id="static-seed" />
-        <button class="static-button">Calculate</button>
+        <label for="static-serial">S/N:</label><br />
+        <input class="form-input" type="number" id="static-serial" /><br />
+        <label for="static-seed">SEED:</label><br />
+        <input class="form-input" type="number" id="static-seed" /><br />
+        <button class="static-button">CALCULATE</button>
         <div class="result">
-          <div class="login">
-            <span class="login">LOGIN:</span>
+              <span class="login">LOGIN:</span>
             <span>PENTEC</span>
-          </div>
-          <div class="password-static">
-            <span>PASSWORD:</span>
-            <span></span>
-          </div>
+             <span>PASSWORD:</span>
+            <span style="text-decoration: underline; font-size: 20px;"></span>
         </div>
       </div>
     </div>
